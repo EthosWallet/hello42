@@ -1,0 +1,13 @@
+[package]
+name = "sub2-cargo-package"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+nonexistent-rust-dependency = "1.5.0"
+
+[workspace]
+members = ["../sub3"]
+
+[package.repository]
+repository = "https://github.com/missing-cargo-org/missing-cargo-repo"
