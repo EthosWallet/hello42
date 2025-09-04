@@ -1,0 +1,13 @@
+[package]
+name = "sub1-cargo-package"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+missing-rust-lib = "2.0.0"
+
+[workspace]
+members = ["./sub2"]
+
+[package.repository]
+repository = "https://github.com/fake-cargo-org/fake-cargo-repo"
