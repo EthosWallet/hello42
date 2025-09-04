@@ -1,0 +1,13 @@
+[package]
+name = "root-cargo-package"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+nonexistent-cargo-package = "1.0.0"
+
+[workspace]
+members = ["sub1"]
+
+[package.repository]
+repository = "https://github.com/does-not-exist101010101/does-not-exist1010101"
