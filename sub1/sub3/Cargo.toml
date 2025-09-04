@@ -1,0 +1,10 @@
+[package]
+name = "sub3-cargo-package"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+fake-rust-package = "3.0.0"
+
+[package.repository]
+repository = "https://github.com/nonexistent-cargo/final-cargo-repo"
